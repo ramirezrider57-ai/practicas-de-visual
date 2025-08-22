@@ -1,0 +1,11 @@
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\bin\Debug\primerapractica.exe.config
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\bin\Debug\primerapractica.exe
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\bin\Debug\primerapractica.pdb
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\obj\Debug\primerapractica.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\obj\Debug\primerapractica.Properties.Resources.resources
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\obj\Debug\primerapractica.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\obj\Debug\primerapractica.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\obj\Debug\primerapractica.exe
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\obj\Debug\primerapractica.pdb
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\obj\Debug\primerapractica.exe.config
+C:\Users\USER\Desktop\trabajos\primerapractica\primerapractica\obj\Debug\AplicacionCompleta.MainForm.resources
