@@ -48,6 +48,10 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnDecimal = new System.Windows.Forms.Button();
             this.btnEquals = new System.Windows.Forms.Button();
+            this.btnSin = new System.Windows.Forms.Button();
+            this.btnCos = new System.Windows.Forms.Button();
+            this.btnTan = new System.Windows.Forms.Button();
+            this.btnFactorial = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtDisplay
@@ -330,11 +334,59 @@
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = true;
             // 
+            // btnSin
+            // 
+            this.btnSin.BackColor = System.Drawing.Color.Red;
+            this.btnSin.ForeColor = System.Drawing.Color.White;
+            this.btnSin.Location = new System.Drawing.Point(342, 50);
+            this.btnSin.Name = "btnSin";
+            this.btnSin.Size = new System.Drawing.Size(60, 40);
+            this.btnSin.TabIndex = 31;
+            this.btnSin.Text = "Sin";
+            this.btnSin.UseVisualStyleBackColor = false;
+            // 
+            // btnCos
+            // 
+            this.btnCos.BackColor = System.Drawing.Color.Red;
+            this.btnCos.ForeColor = System.Drawing.Color.White;
+            this.btnCos.Location = new System.Drawing.Point(342, 96);
+            this.btnCos.Name = "btnCos";
+            this.btnCos.Size = new System.Drawing.Size(60, 40);
+            this.btnCos.TabIndex = 32;
+            this.btnCos.Text = "Cos";
+            this.btnCos.UseVisualStyleBackColor = false;
+            // 
+            // btnTan
+            // 
+            this.btnTan.BackColor = System.Drawing.Color.Red;
+            this.btnTan.ForeColor = System.Drawing.Color.White;
+            this.btnTan.Location = new System.Drawing.Point(342, 142);
+            this.btnTan.Name = "btnTan";
+            this.btnTan.Size = new System.Drawing.Size(60, 40);
+            this.btnTan.TabIndex = 33;
+            this.btnTan.Text = "Tan";
+            this.btnTan.UseVisualStyleBackColor = false;
+            // 
+            // btnFactorial
+            // 
+            this.btnFactorial.BackColor = System.Drawing.Color.Red;
+            this.btnFactorial.ForeColor = System.Drawing.Color.White;
+            this.btnFactorial.Location = new System.Drawing.Point(342, 188);
+            this.btnFactorial.Name = "btnFactorial";
+            this.btnFactorial.Size = new System.Drawing.Size(60, 40);
+            this.btnFactorial.TabIndex = 34;
+            this.btnFactorial.Text = "n!";
+            this.btnFactorial.UseVisualStyleBackColor = false;
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 381);
+            this.ClientSize = new System.Drawing.Size(414, 381);
+            this.Controls.Add(this.btnFactorial);
+            this.Controls.Add(this.btnTan);
+            this.Controls.Add(this.btnCos);
+            this.Controls.Add(this.btnSin);
             this.Controls.Add(this.btnEquals);
             this.Controls.Add(this.btnDecimal);
             this.Controls.Add(this.btn0);
@@ -406,5 +458,9 @@
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnDecimal;
         private System.Windows.Forms.Button btnEquals;
+        private System.Windows.Forms.Button btnSin;
+        private System.Windows.Forms.Button btnCos;
+        private System.Windows.Forms.Button btnTan;
+        private System.Windows.Forms.Button btnFactorial;
     }
 }

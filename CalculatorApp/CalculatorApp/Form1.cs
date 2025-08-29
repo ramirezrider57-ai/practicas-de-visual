@@ -59,6 +59,12 @@ namespace CalculatorApp
             btnLog.Click += (s, e) => CalculateLog();
             btnReciprocal.Click += (s, e) => CalculateReciprocal();
             btnSquare.Click += (s, e) => CalculateSquare();
+
+            // Nuevas funciones especiales (botones rojos)
+            btnSin.Click += (s, e) => CalculateSin();
+            btnCos.Click += (s, e) => CalculateCos();
+            btnTan.Click += (s, e) => CalculateTan();
+            btnFactorial.Click += (s, e) => CalculateFactorial();
         }
 
         private void AppendNumber(string number)
@@ -163,8 +169,45 @@ namespace CalculatorApp
 
         private void CalculatePercentage()
         {
-            double value = double.Parse(txtDisplay.Text, CultureInfo.InvariantCulture);
-            txtDisplay.Text = (value / 100).ToString(CultureInfo.InvariantCulture);
+            if (operationPending && !string.IsNullOrEmpty(currentOperation))
+            {
+                // En el contexto de una operación pendiente, calcular el porcentaje del primer valor
+                double firstValue = currentValue;
+                double percentageValue = double.Parse(txtDisplay.Text, CultureInfo.InvariantCulture);
+
+                switch (currentOperation)
+                {
+                    case "+":
+                        currentValue = firstValue + (firstValue * percentageValue / 100);
+                        break;
+                    case "-":
+                        currentValue = firstValue - (firstValue * percentageValue / 100);
+                        break;
+                    case "*":
+                        currentValue = firstValue * (percentageValue / 100);
+                        break;
+                    case "/":
+                        if (percentageValue != 0)
+                            currentValue = firstValue / (percentageValue / 100);
+                        else
+                            MessageBox.Show("No se puede dividir por cero");
+                        break;
+                    default:
+                        // Para otras operaciones, usar el comportamiento original
+                        currentValue = percentageValue / 100;
+                        break;
+                }
+
+                txtDisplay.Text = currentValue.ToString(CultureInfo.InvariantCulture);
+                operationPending = false;
+                newOperation = true;
+            }
+            else
+            {
+                // Comportamiento original cuando no hay operación pendiente
+                double value = double.Parse(txtDisplay.Text, CultureInfo.InvariantCulture);
+                txtDisplay.Text = (value / 100).ToString(CultureInfo.InvariantCulture);
+            }
         }
 
         private void MemoryAdd() => memoryValue += double.Parse(txtDisplay.Text, CultureInfo.InvariantCulture);
@@ -205,6 +248,69 @@ namespace CalculatorApp
         {
             double value = double.Parse(txtDisplay.Text, CultureInfo.InvariantCulture);
             txtDisplay.Text = (value * value).ToString(CultureInfo.InvariantCulture);
+        }
+
+        // Nuevas funciones especiales (botones rojos)
+        private void CalculateSin()
+        {
+            double value = double.Parse(txtDisplay.Text, CultureInfo.InvariantCulture);
+            // Convertir a radianes si está en grados
+            double radians = value * Math.PI / 180;
+            txtDisplay.Text = Math.Sin(radians).ToString(CultureInfo.InvariantCulture);
+            newOperation = true;
+        }
+
+        private void CalculateCos()
+        {
+            double value = double.Parse(txtDisplay.Text, CultureInfo.InvariantCulture);
+            // Convertir a radianes si está en grados
+            double radians = value * Math.PI / 180;
+            txtDisplay.Text = Math.Cos(radians).ToString(CultureInfo.InvariantCulture);
+            newOperation = true;
+        }
+
+        private void CalculateTan()
+        {
+            double value = double.Parse(txtDisplay.Text, CultureInfo.InvariantCulture);
+            // Convertir a radianes si está en grados
+            double radians = value * Math.PI / 180;
+
+            // Evitar valores donde la tangente es indefinida
+            if (Math.Cos(radians) == 0)
+            {
+                MessageBox.Show("La tangente no está definida para este ángulo");
+                return;
+            }
+
+            txtDisplay.Text = Math.Tan(radians).ToString(CultureInfo.InvariantCulture);
+            newOperation = true;
+        }
+
+        private void CalculateFactorial()
+        {
+            double value = double.Parse(txtDisplay.Text, CultureInfo.InvariantCulture);
+
+            // Solo calcular factorial para números enteros no negativos
+            if (value < 0 || value != Math.Floor(value))
+            {
+                MessageBox.Show("El factorial solo está definido para números enteros no negativos");
+                return;
+            }
+
+            if (value == 0 || value == 1)
+            {
+                txtDisplay.Text = "1";
+                return;
+            }
+
+            double result = 1;
+            for (int i = 2; i <= value; i++)
+            {
+                result *= i;
+            }
+
+            txtDisplay.Text = result.ToString(CultureInfo.InvariantCulture);
+            newOperation = true;
         }
     }
 }

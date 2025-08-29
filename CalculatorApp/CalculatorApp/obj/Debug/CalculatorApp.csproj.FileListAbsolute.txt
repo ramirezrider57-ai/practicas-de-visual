@@ -8,3 +8,4 @@ C:\Users\USER\Desktop\trabajos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorA
 C:\Users\USER\Desktop\trabajos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.CoreCompileInputs.cache
 C:\Users\USER\Desktop\trabajos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.exe
 C:\Users\USER\Desktop\trabajos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.pdb
+C:\Users\USER\Desktop\trabajos\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.exe.config
