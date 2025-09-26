@@ -1,0 +1,11 @@
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\bin\Debug\VisorImagenes.exe.config
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\bin\Debug\VisorImagenes.exe
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\bin\Debug\VisorImagenes.pdb
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\obj\Debug\VisorImagenes.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\obj\Debug\VisorImagenes.Properties.Resources.resources
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\obj\Debug\VisorImagenes.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\obj\Debug\VisorImagenes.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\obj\Debug\VisorImagenes.exe
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\obj\Debug\VisorImagenes.pdb
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\obj\Debug\VisorImagenes.exe.config
+C:\Users\USER\Desktop\trabajos\VisorImagenes\VisorImagenes\obj\Debug\VisorImagenes.Form1.resources
