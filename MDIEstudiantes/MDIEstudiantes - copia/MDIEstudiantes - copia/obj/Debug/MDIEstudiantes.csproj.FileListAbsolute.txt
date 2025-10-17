@@ -1,0 +1,17 @@
+C:\Users\talle\Downloads\MDIEstudiantes\obj\Debug\MDIEstudiantes.csproj.AssemblyReference.cache
+C:\Users\talle\Downloads\MDIEstudiantes\obj\Debug\MDIEstudiantes.Properties.Resources.resources
+C:\Users\talle\Downloads\MDIEstudiantes\obj\Debug\MDIEstudiantes.csproj.GenerateResource.cache
+C:\Users\talle\Downloads\MDIEstudiantes\obj\Debug\MDIEstudiantes.csproj.CoreCompileInputs.cache
+C:\Users\talle\Downloads\MDIEstudiantes\bin\Debug\MDIEstudiantes.exe.config
+C:\Users\talle\Downloads\MDIEstudiantes\bin\Debug\MDIEstudiantes.exe
+C:\Users\talle\Downloads\MDIEstudiantes\bin\Debug\MDIEstudiantes.pdb
+C:\Users\talle\Downloads\MDIEstudiantes\obj\Debug\MDIEstudiantes.exe
+C:\Users\talle\Downloads\MDIEstudiantes\obj\Debug\MDIEstudiantes.pdb
+C:\Users\talle\Downloads\MDIEstudiantes\obj\Debug\MDIEstudiantes.exe.config
+C:\Users\USER\Desktop\trabajos\MDIEstudiantes\MDIEstudiantes - copia\MDIEstudiantes - copia\obj\Debug\MDIEstudiantes.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\trabajos\MDIEstudiantes\MDIEstudiantes - copia\MDIEstudiantes - copia\obj\Debug\MDIEstudiantes.exe.config
+C:\Users\USER\Desktop\trabajos\MDIEstudiantes\MDIEstudiantes - copia\MDIEstudiantes - copia\obj\Debug\MDIEstudiantes.Properties.Resources.resources
+C:\Users\USER\Desktop\trabajos\MDIEstudiantes\MDIEstudiantes - copia\MDIEstudiantes - copia\obj\Debug\MDIEstudiantes.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\trabajos\MDIEstudiantes\MDIEstudiantes - copia\MDIEstudiantes - copia\obj\Debug\MDIEstudiantes.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\trabajos\MDIEstudiantes\MDIEstudiantes - copia\MDIEstudiantes - copia\obj\Debug\MDIEstudiantes.exe
+C:\Users\USER\Desktop\trabajos\MDIEstudiantes\MDIEstudiantes - copia\MDIEstudiantes - copia\obj\Debug\MDIEstudiantes.pdb
